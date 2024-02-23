@@ -11,7 +11,7 @@ def create_new_playlist(year):
     user.fill_in_playlist(songs, year, playlist_id)
 
 
-date = input("what year you would like to travel to? Type the date in YYYY-MM-DD format: ")
+date = input("what year you would like to travel to? Type the year in YYYY format: ")
 today = datetime.date.today()
 month = today.month
 day = today.day
